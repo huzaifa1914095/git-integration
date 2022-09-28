@@ -16,11 +16,12 @@ class Anagram {
                 return false;
         return true;
     }
-    
+
     public static void main(String args[])
     {
         char str1[] = { 't', 'e', 's', 't' };
         char str2[] = { 't', 't', 'e', 'w' };
+        
         if (areAnagram(str1, str2))
             System.out.println("The two strings are"
                                + " anagram of each other");
